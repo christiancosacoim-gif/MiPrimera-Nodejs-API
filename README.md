@@ -1,6 +1,6 @@
 # Mi primera API con Node.js
 
-API REST sencilla para consultar y administrar notas. Está construida con Node.js y Express; los datos se guardan en el archivo `db.json`.
+API REST sencilla para consultar y administrar notas. Está construida con Node.js y Express; su principal función es actuar como intermediaria entre un cliente (como una aplicación web o móvil) y una base de datos local basada en un archivo de texto (db.json), permitiendo administrar la información de forma persistente a través de peticiones HTTP.
 
 ## Requisitos
 
