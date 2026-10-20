@@ -1,0 +1,26 @@
+{
+  "name": "miprimera-nodejs-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MyPrimera API con Nodejs",
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/repos"
+  },
+  "license": "ISC",
+  "author": "cristianinostroza",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

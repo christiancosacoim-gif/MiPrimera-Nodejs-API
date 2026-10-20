@@ -1,0 +1,24 @@
+GET http://localhost:3000/notes/  HTTP/1.1
+
+###
+GET http://localhost:3000/notes/  HTTP/1.1
+
+###
+POST http://localhost:3000/notes/3  HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Mi primera nota",
+    "content": "Este es el contenido de mi primera nota"
+}
+
+###
+PUT http://localhost:3000/notes/3  HTTP/1.1
+Content-Type: application/json
+
+{
+    "content": "Tengo que cambiar el contenido de mi primera nota"
+}
+
+###
+DELETE http://localhost:3000/notes/3  HTTP/1.1
